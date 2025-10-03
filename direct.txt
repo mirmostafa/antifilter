@@ -1,3 +1,5 @@
+trojan://telegram-id-privatevpns@63.179.125.154:22222?security=tls&alpn=http/1.1&headerType=none&type=tcp&sni=trojan.burgerip.co.uk#(S102)🇩🇪t.me/PrivateVPNs
+
 vless://3e7d7af8-fa51-4b7f-bbe2-786599550ddc@165.232.103.60:16595?path=%2F&security=&encryption=none&type=ws#@info_2IT_channel
 
 vless://502ce704-dcec-4f92-9489-505c99ce6c89@172.66.40.99:2096?path=%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed%3D512&security=tls&encryption=none&host=D36.alAnhiAho.CoM&type=ws&sni=D36.alAnhiAho.CoM#@info_2IT_channel
