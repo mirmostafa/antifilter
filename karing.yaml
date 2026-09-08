@@ -1,0 +1,156 @@
+proxies:
+  - name: "CA-HTTP-01"
+    type: http
+    server: 184.75.221.82
+    port: 3118
+
+  - name: "US-HTTP-02"
+    type: http
+    server: 199.7.149.96
+    port: 3128
+
+  - name: "US-SOCKS5-03"
+    type: socks5
+    server: 3.128.83.74
+    port: 17000
+
+  - name: "US-SOCKS5-04"
+    type: socks5
+    server: 107.181.252.58
+    port: 1081
+
+  - name: "US-SOCKS5-05"
+    type: socks5
+    server: 45.32.160.61
+    port: 1088
+
+  - name: "US-HTTP-06"
+    type: http
+    server: 107.181.252.58
+    port: 1082
+
+  - name: "US-SOCKS5-07"
+    type: socks5
+    server: 108.174.152.80
+    port: 1080
+
+  - name: "DO-HTTP-08"
+    type: http
+    server: 217.76.245.80
+    port: 999
+
+  - name: "US-HTTP-09"
+    type: http
+    server: 64.112.184.210
+    port: 3128
+
+  - name: "DE-HTTP-10"
+    type: http
+    server: 18.157.123.132
+    port: 3128
+
+  - name: "CO-HTTP-11"
+    type: http
+    server: 181.78.23.187
+    port: 999
+
+  - name: "VE-HTTP-12"
+    type: http
+    server: 190.97.236.128
+    port: 999
+
+  - name: "CO-HTTP-13"
+    type: http
+    server: 181.78.74.253
+    port: 999
+
+  - name: "NL-SOCKS5-14"
+    type: socks5
+    server: 213.165.38.49
+    port: 1080
+
+  - name: "NL-SOCKS5-15"
+    type: socks5
+    server: 5.255.103.55
+    port: 1080
+
+  - name: "DE-HTTPS-16"
+    type: http
+    server: 103.237.102.191
+    port: 11111
+    tls: true
+
+  - name: "DE-HTTP-17"
+    type: http
+    server: 103.237.102.191
+    port: 11111
+
+  - name: "UA-HTTP-18"
+    type: http
+    server: 176.111.37.5
+    port: 39811
+
+  - name: "XK-SOCKS5-19"
+    type: socks5
+    server: 185.222.138.237
+    port: 1080
+
+  - name: "VE-HTTP-20"
+    type: http
+    server: 190.97.236.129
+    port: 999
+
+proxy-groups:
+  - name: "AUTO"
+    type: url-test
+    proxies:
+      - "CA-HTTP-01"
+      - "US-HTTP-02"
+      - "US-SOCKS5-03"
+      - "US-SOCKS5-04"
+      - "US-SOCKS5-05"
+      - "US-HTTP-06"
+      - "US-SOCKS5-07"
+      - "DO-HTTP-08"
+      - "US-HTTP-09"
+      - "DE-HTTP-10"
+      - "CO-HTTP-11"
+      - "VE-HTTP-12"
+      - "CO-HTTP-13"
+      - "NL-SOCKS5-14"
+      - "NL-SOCKS5-15"
+      - "DE-HTTPS-16"
+      - "DE-HTTP-17"
+      - "UA-HTTP-18"
+      - "XK-SOCKS5-19"
+      - "VE-HTTP-20"
+    url: "https://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "AUTO"
+      - "CA-HTTP-01"
+      - "US-HTTP-02"
+      - "US-SOCKS5-03"
+      - "US-SOCKS5-04"
+      - "US-SOCKS5-05"
+      - "US-HTTP-06"
+      - "US-SOCKS5-07"
+      - "DO-HTTP-08"
+      - "US-HTTP-09"
+      - "DE-HTTP-10"
+      - "CO-HTTP-11"
+      - "VE-HTTP-12"
+      - "CO-HTTP-13"
+      - "NL-SOCKS5-14"
+      - "NL-SOCKS5-15"
+      - "DE-HTTPS-16"
+      - "DE-HTTP-17"
+      - "UA-HTTP-18"
+      - "XK-SOCKS5-19"
+      - "VE-HTTP-20"
+
+rules:
+  - MATCH,PROXY
