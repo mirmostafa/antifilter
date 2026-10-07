@@ -1,189 +1,69 @@
 proxies:
-  - name: "US-SOCKS5-01"
-    type: socks5
-    server: 107.174.30.92
-    port: 1080
-
-  - name: "US-SOCKS5-02"
-    type: socks5
-    server: 107.174.30.94
-    port: 1080
-
-  - name: "GR-SOCKS5-03"
-    type: socks5
-    server: 83.147.217.103
-    port: 1080
-
-  - name: "US-HTTPS-04"
-    type: http
-    server: 107.167.18.122
-    port: 443
-    tls: true
-
-  - name: "CA-HTTP-05"
-    type: http
-    server: 184.75.221.82
-    port: 3118
-
-  - name: "DO-HTTP-06"
-    type: http
-    server: 217.76.245.80
-    port: 999
-
-  - name: "US-HTTP-07"
-    type: http
-    server: 43.173.120.13
-    port: 8899
-
-  - name: "DE-HTTP-08"
-    type: http
-    server: 103.237.102.191
-    port: 11111
-
-  - name: "MX-HTTP-09"
-    type: http
-    server: 187.201.225.188
-    port: 999
-
-  - name: "CO-HTTP-10"
-    type: http
-    server: 190.0.246.211
-    port: 4040
-
-  - name: "CO-HTTP-11"
-    type: http
-    server: 190.0.246.213
-    port: 4040
-
-  - name: "FI-HTTP-12"
-    type: http
-    server: 65.109.215.187
-    port: 8090
-
-  - name: "JP-SOCKS5-13"
-    type: socks5
-    server: 101.36.104.239
-    port: 10808
-
-  - name: "PH-HTTP-14"
-    type: http
-    server: 122.52.189.109
-    port: 8080
-
-  - name: "SA-HTTP-15"
-    type: http
-    server: 130.110.103.245
-    port: 3128
-
-  - name: "US-SOCKS5-16"
-    type: socks5
-    server: 38.79.114.43
-    port: 8885
-
-  - name: "FR-SOCKS5-17"
-    type: socks5
-    server: 164.68.114.118
-    port: 1080
-
-  - name: "US-HTTP-18"
-    type: http
-    server: 44.216.27.249
-    port: 3128
-
-  - name: "FI-HTTP-19"
-    type: http
-    server: 65.109.176.225
-    port: 8443
-
-  - name: "XK-SOCKS5-20"
-    type: socks5
-    server: 82.114.86.173
-    port: 1090
-
-  - name: "SG-HTTP-21"
-    type: http
-    server: 104.248.151.93
-    port: 9090
-
-  - name: "CO-HTTP-22"
-    type: http
-    server: 190.0.246.210
-    port: 4040
-
-  - name: "CM-HTTP-23"
-    type: http
-    server: 102.244.78.61
-    port: 8080
-
-  - name: "CM-HTTP-24"
-    type: http
-    server: 102.244.78.61
-    port: 8087
-
-  - name: "MX-SOCKS5-25"
-    type: socks5
-    server: 103.88.234.239
-    port: 40016
-
-  - name: "US-HTTP-26"
-    type: http
-    server: 165.154.162.73
-    port: 8888
-
-  - name: "SE-SOCKS5-27"
-    type: socks5
-    server: 171.25.158.95
-    port: 1080
-
-  - name: "IT-SOCKS5-28"
-    type: socks5
-    server: 212.77.75.25
-    port: 1088
-
-  - name: "FI-SOCKS5-29"
-    type: socks5
-    server: 65.109.215.187
-    port: 8090
-
-  - name: "US-SOCKS5-30"
-    type: socks5
-    server: 107.167.18.122
-    port: 443
+  - { name: "IE-HTTP-01", type: http, server: 40.127.188.42, port: 8089 }
+  - { name: "SE-HTTP-02", type: http, server: 85.8.47.212, port: 7080 }
+  - { name: "SK-SOCKS5-03", type: socks5, server: 5.75.133.113, port: 10805 }
+  - { name: "US-HTTP-04", type: http, server: 209.97.150.167, port: 80 }
+  - { name: "DE-SOCKS5-05", type: socks5, server: 45.74.31.50, port: 4991 }
+  - { name: "CA-HTTP-06", type: http, server: 159.203.61.169, port: 8080 }
+  - { name: "US-HTTP-07", type: http, server: 44.253.226.162, port: 443 }
+  - { name: "RU-SOCKS5-08", type: socks5, server: 85.30.222.99, port: 2080 }
+  - { name: "RU-SOCKS5-09", type: socks5, server: 92.255.78.187, port: 1080 }
+  - { name: "DE-HTTP-10", type: http, server: 103.237.102.191, port: 11111 }
+  - { name: "FR-SOCKS5-11", type: socks5, server: 45.74.31.40, port: 6639 }
+  - { name: "US-SOCKS5-12", type: socks5, server: 67.207.92.87, port: 1088 }
+  - { name: "US-SOCKS5-13", type: socks5, server: 193.25.215.182, port: 22222 }
+  - { name: "SG-HTTP-14", type: http, server: 18.143.49.117, port: 443 }
+  - { name: "MX-HTTP-15", type: http, server: 189.51.168.164, port: 999 }
+  - { name: "GQ-HTTP-16", type: http, server: 102.164.255.155, port: 8080 }
+  - { name: "DE-SOCKS5-17", type: socks5, server: 45.74.31.42, port: 12734 }
+  - { name: "RU-HTTP-18", type: http, server: 46.173.18.7, port: 40001 }
+  - { name: "US-SOCKS5-19", type: socks5, server: 162.120.16.210, port: 1080 }
+  - { name: "LV-SOCKS5-20", type: socks5, server: 195.135.255.98, port: 1080 }
+  - { name: "TR-HTTP-21", type: http, server: 185.195.254.72, port: 5432 }
+  - { name: "CM-HTTP-22", type: http, server: 102.244.78.61, port: 8080 }
+  - { name: "HK-SOCKS5-23", type: socks5, server: 47.83.158.131, port: 3128 }
+  - { name: "SE-HTTP-24", type: http, server: 85.8.47.210, port: 7080 }
+  - { name: "NL-SOCKS5-25", type: socks5, server: 45.61.129.165, port: 9050 }
+  - { name: "FR-SOCKS5-26", type: socks5, server: 164.68.114.118, port: 1080 }
+  - { name: "CM-HTTP-27", type: http, server: 102.244.78.61, port: 8085 }
+  - { name: "US-HTTP-28", type: http, server: 160.30.204.24, port: 50001 }
+  - { name: "US-HTTP-29", type: http, server: 162.214.74.29, port: 3128 }
+  - { name: "FR-SOCKS5-30", type: socks5, server: 213.199.47.140, port: 1080 }
 
 proxy-groups:
   - name: "AUTO"
     type: url-test
     proxies:
-      - "US-SOCKS5-01"
-      - "US-SOCKS5-02"
-      - "GR-SOCKS5-03"
-      - "US-HTTPS-04"
-      - "CA-HTTP-05"
-      - "DO-HTTP-06"
+      - "IE-HTTP-01"
+      - "SE-HTTP-02"
+      - "SK-SOCKS5-03"
+      - "US-HTTP-04"
+      - "DE-SOCKS5-05"
+      - "CA-HTTP-06"
       - "US-HTTP-07"
-      - "DE-HTTP-08"
-      - "MX-HTTP-09"
-      - "CO-HTTP-10"
-      - "CO-HTTP-11"
-      - "FI-HTTP-12"
-      - "JP-SOCKS5-13"
-      - "PH-HTTP-14"
-      - "SA-HTTP-15"
-      - "US-SOCKS5-16"
-      - "FR-SOCKS5-17"
-      - "US-HTTP-18"
-      - "FI-HTTP-19"
-      - "XK-SOCKS5-20"
-      - "SG-HTTP-21"
-      - "CO-HTTP-22"
-      - "CM-HTTP-23"
-      - "CM-HTTP-24"
-      - "MX-SOCKS5-25"
-      - "US-HTTP-26"
-      - "SE-SOCKS5-27"
-      - "IT-SOCKS5-28"
-      - "FI-SOCKS5-29"
-      - "US-SOCKS5-30"
+      - "RU-SOCKS5-08"
+      - "RU-SOCKS5-09"
+      - "DE-HTTP-10"
+      - "FR-SOCKS5-11"
+      - "US-SOCKS5-12"
+      - "US-SOCKS5-13"
+      - "SG-HTTP-14"
+      - "MX-HTTP-15"
+      - "GQ-HTTP-16"
+      - "DE-SOCKS5-17"
+      - "RU-HTTP-18"
+      - "US-SOCKS5-19"
+      - "LV-SOCKS5-20"
+      - "TR-HTTP-21"
+      - "CM-HTTP-22"
+      - "HK-SOCKS5-23"
+      - "SE-HTTP-24"
+      - "NL-SOCKS5-25"
+      - "FR-SOCKS5-26"
+      - "CM-HTTP-27"
+      - "US-HTTP-28"
+      - "US-HTTP-29"
+      - "FR-SOCKS5-30"
     url: "https://www.gstatic.com/generate_204"
     interval: 300
 
@@ -191,36 +71,36 @@ proxy-groups:
     type: select
     proxies:
       - "AUTO"
-      - "US-SOCKS5-01"
-      - "US-SOCKS5-02"
-      - "GR-SOCKS5-03"
-      - "US-HTTPS-04"
-      - "CA-HTTP-05"
-      - "DO-HTTP-06"
+      - "IE-HTTP-01"
+      - "SE-HTTP-02"
+      - "SK-SOCKS5-03"
+      - "US-HTTP-04"
+      - "DE-SOCKS5-05"
+      - "CA-HTTP-06"
       - "US-HTTP-07"
-      - "DE-HTTP-08"
-      - "MX-HTTP-09"
-      - "CO-HTTP-10"
-      - "CO-HTTP-11"
-      - "FI-HTTP-12"
-      - "JP-SOCKS5-13"
-      - "PH-HTTP-14"
-      - "SA-HTTP-15"
-      - "US-SOCKS5-16"
-      - "FR-SOCKS5-17"
-      - "US-HTTP-18"
-      - "FI-HTTP-19"
-      - "XK-SOCKS5-20"
-      - "SG-HTTP-21"
-      - "CO-HTTP-22"
-      - "CM-HTTP-23"
-      - "CM-HTTP-24"
-      - "MX-SOCKS5-25"
-      - "US-HTTP-26"
-      - "SE-SOCKS5-27"
-      - "IT-SOCKS5-28"
-      - "FI-SOCKS5-29"
-      - "US-SOCKS5-30"
+      - "RU-SOCKS5-08"
+      - "RU-SOCKS5-09"
+      - "DE-HTTP-10"
+      - "FR-SOCKS5-11"
+      - "US-SOCKS5-12"
+      - "US-SOCKS5-13"
+      - "SG-HTTP-14"
+      - "MX-HTTP-15"
+      - "GQ-HTTP-16"
+      - "DE-SOCKS5-17"
+      - "RU-HTTP-18"
+      - "US-SOCKS5-19"
+      - "LV-SOCKS5-20"
+      - "TR-HTTP-21"
+      - "CM-HTTP-22"
+      - "HK-SOCKS5-23"
+      - "SE-HTTP-24"
+      - "NL-SOCKS5-25"
+      - "FR-SOCKS5-26"
+      - "CM-HTTP-27"
+      - "US-HTTP-28"
+      - "US-HTTP-29"
+      - "FR-SOCKS5-30"
 
 rules:
   - MATCH,PROXY
