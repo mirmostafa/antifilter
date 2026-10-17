@@ -3,153 +3,122 @@ proxies:
     type: socks5
     server: 107.174.30.92
     port: 1080
-
   - name: "US-SOCKS5-02"
     type: socks5
     server: 107.174.30.94
     port: 1080
-
   - name: "US-HTTP-03"
-    type: http
-    server: 136.226.118.196
-    port: 9480
-
-  - name: "US-HTTP-04"
-    type: http
-    server: 136.226.118.194
-    port: 9480
-
-  - name: "DO-HTTP-05"
-    type: http
-    server: 217.76.245.80
-    port: 999
-
-  - name: "US-HTTP-06"
-    type: http
-    server: 104.129.203.85
-    port: 9480
-
-  - name: "CO-HTTP-07"
-    type: http
-    server: 190.0.246.213
-    port: 4040
-
-  - name: "CO-HTTP-08"
-    type: http
-    server: 190.0.246.210
-    port: 4040
-
-  - name: "CO-HTTP-09"
-    type: http
-    server: 190.0.246.211
-    port: 4040
-
-  - name: "UA-HTTP-10"
-    type: http
-    server: 176.111.37.5
-    port: 39811
-
-  - name: "MX-SOCKS5-11"
-    type: socks5
-    server: 103.88.234.239
-    port: 40017
-
-  - name: "US-SOCKS5-12"
-    type: socks5
-    server: 193.25.215.182
-    port: 22222
-
-  - name: "KR-HTTP-13"
-    type: http
-    server: 203.252.142.217
-    port: 80
-
-  - name: "HK-HTTP-14"
-    type: http
-    server: 121.46.226.221
-    port: 10808
-
-  - name: "MX-HTTP-15"
-    type: http
-    server: 103.88.234.239
-    port: 40005
-
-  - name: "DE-HTTPS-16"
-    type: http
-    server: 103.237.102.191
-    port: 11111
-    tls: true
-
-  - name: "US-HTTP-17"
     type: http
     server: 3.211.120.181
     port: 443
-
-  - name: "SG-HTTP-18"
+  - name: "DE-HTTP-04"
     type: http
-    server: 104.248.151.93
-    port: 9090
-
-  - name: "SG-SOCKS5-19"
+    server: 103.237.102.191
+    port: 11111
+  - name: "US-SOCKS5-05"
+    type: socks5
+    server: 137.220.51.229
+    port: 1080
+  - name: "CA-HTTP-06"
+    type: http
+    server: 184.75.221.82
+    port: 3118
+  - name: "DO-HTTP-07"
+    type: http
+    server: 217.76.245.80
+    port: 999
+  - name: "US-HTTP-08"
+    type: http
+    server: 44.216.83.206
+    port: 3128
+  - name: "US-SOCKS5-09"
+    type: socks5
+    server: 193.25.215.182
+    port: 22222
+  - name: "DE-HTTP-10"
+    type: http
+    server: 91.107.247.193
+    port: 7001
+  - name: "UA-HTTP-11"
+    type: http
+    server: 176.111.37.216
+    port: 39811
+  - name: "UA-HTTP-12"
+    type: http
+    server: 176.111.37.5
+    port: 39811
+  - name: "DE-SOCKS5-13"
+    type: socks5
+    server: 31.77.19.92
+    port: 443
+  - name: "GB-SOCKS5-14"
+    type: socks5
+    server: 57.129.182.181
+    port: 1080
+  - name: "CZ-SOCKS5-15"
+    type: socks5
+    server: 93.99.104.47
+    port: 1080
+  - name: "CA-SOCKS5-16"
+    type: socks5
+    server: 38.49.210.79
+    port: 40000
+  - name: "DE-SOCKS5-17"
+    type: socks5
+    server: 91.107.179.68
+    port: 10809
+  - name: "US-SOCKS5-18"
+    type: socks5
+    server: 13.90.182.199
+    port: 3000
+  - name: "AR-HTTP-19"
+    type: http
+    server: 45.65.224.74
+    port: 999
+  - name: "RU-SOCKS5-20"
+    type: socks5
+    server: 213.139.210.13
+    port: 1088
+  - name: "FI-SOCKS5-21"
+    type: socks5
+    server: 46.62.236.59
+    port: 1080
+  - name: "EC-HTTP-22"
+    type: http
+    server: 186.5.94.206
+    port: 999
+  - name: "JP-SOCKS5-23"
+    type: socks5
+    server: 217.142.236.180
+    port: 1080
+  - name: "AT-SOCKS5-24"
+    type: socks5
+    server: 62.83.33.70
+    port: 1080
+  - name: "SG-SOCKS5-25"
     type: socks5
     server: 143.198.90.221
     port: 1088
-
-  - name: "IN-SOCKS5-20"
+  - name: "HK-SOCKS5-26"
     type: socks5
-    server: 144.24.111.128
-    port: 1088
-
-  - name: "SG-HTTP-21"
+    server: 43.245.199.34
+    port: 1080
+  - name: "HK-HTTP-27"
     type: http
-    server: 152.42.177.32
-    port: 8888
-
-  - name: "IN-HTTP-22"
-    type: http
-    server: 152.67.191.232
-    port: 6800
-
-  - name: "IN-HTTP-23"
+    server: 45.125.64.215
+    port: 443
+  - name: "IN-SOCKS5-28"
+    type: socks5
+    server: 65.1.144.224
+    port: 1080
+  - name: "IN-HTTP-29"
     type: http
     server: 13.233.81.236
     port: 8088
-
-  - name: "MX-SOCKS5-24"
-    type: socks5
-    server: 103.88.234.239
-    port: 40002
-
-  - name: "JP-SOCKS5-25"
-    type: socks5
-    server: 101.36.104.46
-    port: 10808
-
-  - name: "TH-SOCKS5-26"
-    type: socks5
-    server: 47.87.97.94
-    port: 1080
-
-  - name: "CM-HTTP-27"
+  - name: "IN-HTTP-30"
     type: http
-    server: 102.244.78.61
-    port: 8083
-
-  - name: "SG-HTTP-28"
-    type: http
-    server: 43.156.55.191
-    port: 5001
-
-  - name: "US-SOCKS5-29"
-    type: socks5
-    server: 67.207.92.87
-    port: 1088
-
-  - name: "EC-HTTP-30"
-    type: http
-    server: 190.12.150.244
-    port: 999
-
+    server: 152.67.191.232
+    port: 6800
 proxy-groups:
   - name: "AUTO"
     type: url-test
@@ -157,36 +126,35 @@ proxy-groups:
       - "US-SOCKS5-01"
       - "US-SOCKS5-02"
       - "US-HTTP-03"
-      - "US-HTTP-04"
-      - "DO-HTTP-05"
-      - "US-HTTP-06"
-      - "CO-HTTP-07"
-      - "CO-HTTP-08"
-      - "CO-HTTP-09"
-      - "UA-HTTP-10"
-      - "MX-SOCKS5-11"
-      - "US-SOCKS5-12"
-      - "KR-HTTP-13"
-      - "HK-HTTP-14"
-      - "MX-HTTP-15"
-      - "DE-HTTPS-16"
-      - "US-HTTP-17"
-      - "SG-HTTP-18"
-      - "SG-SOCKS5-19"
-      - "IN-SOCKS5-20"
-      - "SG-HTTP-21"
-      - "IN-HTTP-22"
-      - "IN-HTTP-23"
-      - "MX-SOCKS5-24"
-      - "JP-SOCKS5-25"
-      - "TH-SOCKS5-26"
-      - "CM-HTTP-27"
-      - "SG-HTTP-28"
-      - "US-SOCKS5-29"
-      - "EC-HTTP-30"
+      - "DE-HTTP-04"
+      - "US-SOCKS5-05"
+      - "CA-HTTP-06"
+      - "DO-HTTP-07"
+      - "US-HTTP-08"
+      - "US-SOCKS5-09"
+      - "DE-HTTP-10"
+      - "UA-HTTP-11"
+      - "UA-HTTP-12"
+      - "DE-SOCKS5-13"
+      - "GB-SOCKS5-14"
+      - "CZ-SOCKS5-15"
+      - "CA-SOCKS5-16"
+      - "DE-SOCKS5-17"
+      - "US-SOCKS5-18"
+      - "AR-HTTP-19"
+      - "RU-SOCKS5-20"
+      - "FI-SOCKS5-21"
+      - "EC-HTTP-22"
+      - "JP-SOCKS5-23"
+      - "AT-SOCKS5-24"
+      - "SG-SOCKS5-25"
+      - "HK-SOCKS5-26"
+      - "HK-HTTP-27"
+      - "IN-SOCKS5-28"
+      - "IN-HTTP-29"
+      - "IN-HTTP-30"
     url: "https://www.gstatic.com/generate_204"
     interval: 300
-
   - name: "PROXY"
     type: select
     proxies:
@@ -194,33 +162,32 @@ proxy-groups:
       - "US-SOCKS5-01"
       - "US-SOCKS5-02"
       - "US-HTTP-03"
-      - "US-HTTP-04"
-      - "DO-HTTP-05"
-      - "US-HTTP-06"
-      - "CO-HTTP-07"
-      - "CO-HTTP-08"
-      - "CO-HTTP-09"
-      - "UA-HTTP-10"
-      - "MX-SOCKS5-11"
-      - "US-SOCKS5-12"
-      - "KR-HTTP-13"
-      - "HK-HTTP-14"
-      - "MX-HTTP-15"
-      - "DE-HTTPS-16"
-      - "US-HTTP-17"
-      - "SG-HTTP-18"
-      - "SG-SOCKS5-19"
-      - "IN-SOCKS5-20"
-      - "SG-HTTP-21"
-      - "IN-HTTP-22"
-      - "IN-HTTP-23"
-      - "MX-SOCKS5-24"
-      - "JP-SOCKS5-25"
-      - "TH-SOCKS5-26"
-      - "CM-HTTP-27"
-      - "SG-HTTP-28"
-      - "US-SOCKS5-29"
-      - "EC-HTTP-30"
-
+      - "DE-HTTP-04"
+      - "US-SOCKS5-05"
+      - "CA-HTTP-06"
+      - "DO-HTTP-07"
+      - "US-HTTP-08"
+      - "US-SOCKS5-09"
+      - "DE-HTTP-10"
+      - "UA-HTTP-11"
+      - "UA-HTTP-12"
+      - "DE-SOCKS5-13"
+      - "GB-SOCKS5-14"
+      - "CZ-SOCKS5-15"
+      - "CA-SOCKS5-16"
+      - "DE-SOCKS5-17"
+      - "US-SOCKS5-18"
+      - "AR-HTTP-19"
+      - "RU-SOCKS5-20"
+      - "FI-SOCKS5-21"
+      - "EC-HTTP-22"
+      - "JP-SOCKS5-23"
+      - "AT-SOCKS5-24"
+      - "SG-SOCKS5-25"
+      - "HK-SOCKS5-26"
+      - "HK-HTTP-27"
+      - "IN-SOCKS5-28"
+      - "IN-HTTP-29"
+      - "IN-HTTP-30"
 rules:
   - MATCH,PROXY
