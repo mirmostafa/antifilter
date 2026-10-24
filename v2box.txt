@@ -1,39 +1,122 @@
-{
-  "log": {
-    "loglevel": "warning"
-  },
-  "inbounds": [
-    {
-      "tag": "socks-in",
-      "port": 10808,
-      "listen": "127.0.0.1",
-      "protocol": "socks",
-      "settings": {
-        "auth": "noauth",
-        "udp": true
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "tag": "proxy",
-      "protocol": "socks",
-      "settings": {
-        "servers": [
-          {
-            "address": "107.174.30.92",
-            "port": 1080
-          }
-        ]
-      }
+[
+  {
+    "remarks": "TEST-1-US-SOCKS5",
+    "log": {
+      "loglevel": "warning"
     },
-    {
-      "tag": "direct",
-      "protocol": "freedom"
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "107.174.30.92",
+              "port": 1080
+            }
+          ]
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
     }
-  ],
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": []
+  },
+  {
+    "remarks": "TEST-2-US-SOCKS5",
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "67.207.92.87",
+              "port": 1088
+            }
+          ]
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "TEST-3-US-SOCKS5",
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "socks",
+        "settings": {
+          "servers": [
+            {
+              "address": "209.50.255.91",
+              "port": 1080
+            }
+          ]
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
   }
-}
+]
