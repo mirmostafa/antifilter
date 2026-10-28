@@ -1,155 +1,154 @@
 proxies:
   - name: "US-HTTP-01"
     type: http
-    server: 136.226.10.220
+    server: 136.226.10.203
     port: 9480
 
   - name: "US-HTTP-02"
     type: http
-    server: 136.226.10.202
+    server: 136.226.10.220
     port: 9480
 
   - name: "US-HTTP-03"
     type: http
-    server: 136.226.10.203
-    port: 9480
-
-  - name: "US-HTTP-04"
-    type: http
     server: 136.226.10.217
     port: 9480
 
-  - name: "MX-HTTP-05"
+  - name: "CA-HTTP-04"
+    type: http
+    server: 184.75.221.82
+    port: 3118
+
+  - name: "US-HTTP-05"
+    type: http
+    server: 136.226.10.202
+    port: 9480
+
+  - name: "DO-HTTP-06"
+    type: http
+    server: 217.76.245.80
+    port: 999
+
+  - name: "MX-HTTP-07"
     type: http
     server: 189.51.168.165
     port: 999
 
-  - name: "DE-HTTPS-06"
+  - name: "US-HTTP-08"
+    type: http
+    server: 130.127.204.197
+    port: 8080
+
+  - name: "CO-HTTP-09"
+    type: http
+    server: 190.0.246.213
+    port: 4040
+
+  - name: "CO-HTTP-10"
+    type: http
+    server: 190.0.246.210
+    port: 4040
+
+  - name: "MX-HTTP-11"
+    type: http
+    server: 189.51.168.164
+    port: 999
+
+  - name: "UA-HTTP-12"
+    type: http
+    server: 176.111.37.5
+    port: 39811
+
+  - name: "EC-HTTP-13"
+    type: http
+    server: 186.5.94.206
+    port: 999
+
+  - name: "CO-HTTP-14"
+    type: http
+    server: 190.0.246.211
+    port: 4040
+
+  - name: "US-HTTP-15"
+    type: http
+    server: 104.129.203.85
+    port: 9480
+
+  - name: "CN-HTTP-16"
+    type: http
+    server: 101.251.204.174
+    port: 8080
+
+  - name: "ID-HTTP-17"
+    type: http
+    server: 202.150.89.244
+    port: 3128
+
+  - name: "NL-HTTP-18"
+    type: http
+    server: 51.15.20.32
+    port: 3129
+
+  - name: "CN-HTTP-19"
+    type: http
+    server: 8.163.24.236
+    port: 8080
+
+  - name: "SG-HTTP-20"
+    type: http
+    server: 4.144.146.21
+    port: 80
+
+  - name: "CN-HTTP-21"
+    type: http
+    server: 47.107.107.24
+    port: 80
+
+  - name: "US-HTTP-22"
+    type: http
+    server: 165.154.162.73
+    port: 8888
+
+  - name: "KH-HTTP-23"
+    type: http
+    server: 49.156.44.117
+    port: 8080
+
+  - name: "CN-HTTP-24"
+    type: http
+    server: 27.185.218.213
+    port: 17981
+
+  - name: "SG-HTTP-25"
+    type: http
+    server: 128.199.116.219
+    port: 9090
+
+  - name: "US-HTTP-26"
+    type: http
+    server: 38.18.230.153
+    port: 8888
+
+  - name: "AR-HTTP-27"
+    type: http
+    server: 187.102.219.42
+    port: 999
+
+  - name: "DE-HTTPS-28"
     type: http
     server: 103.237.102.191
     port: 11111
     tls: true
 
-  - name: "MX-HTTP-07"
+  - name: "FR-HTTP-29"
     type: http
-    server: 189.51.168.164
-    port: 999
-
-  - name: "DO-HTTP-08"
-    type: http
-    server: 217.76.245.80
-    port: 999
-
-  - name: "CA-HTTP-09"
-    type: http
-    server: 184.75.221.82
-    port: 3118
-
-  - name: "UA-HTTP-10"
-    type: http
-    server: 176.111.37.5
-    port: 39811
-
-  - name: "UA-HTTP-11"
-    type: http
-    server: 176.111.37.216
-    port: 39811
-
-  - name: "US-HTTP-12"
-    type: http
-    server: 165.154.162.73
-    port: 8888
-
-  - name: "CO-HTTP-13"
-    type: http
-    server: 190.0.246.210
-    port: 4040
-
-  - name: "BG-HTTP-14"
-    type: http
-    server: 89.167.124.218
-    port: 8888
-
-  - name: "NL-HTTP-15"
-    type: http
-    server: 51.15.20.32
+    server: 205.237.105.49
     port: 3129
-
-  - name: "US-HTTP-16"
-    type: http
-    server: 104.129.203.85
-    port: 9480
-
-  - name: "SG-HTTP-17"
-    type: http
-    server: 146.190.80.158
-    port: 9090
-
-  - name: "SG-HTTP-18"
-    type: http
-    server: 4.144.146.21
-    port: 80
-
-  - name: "EC-HTTP-19"
-    type: http
-    server: 186.5.94.206
-    port: 999
-
-  - name: "CA-HTTPS-20"
-    type: http
-    server: 56.112.93.245
-    port: 52536
-    tls: true
-
-  - name: "CM-HTTP-21"
-    type: http
-    server: 102.244.78.61
-    port: 8081
-
-  - name: "CO-HTTP-22"
-    type: http
-    server: 190.0.246.211
-    port: 4040
-
-  - name: "US-HTTP-23"
-    type: http
-    server: 130.127.204.197
-    port: 8080
-
-  - name: "CM-HTTP-24"
-    type: http
-    server: 102.244.78.61
-    port: 8089
-
-  - name: "CN-HTTP-25"
-    type: http
-    server: 101.251.204.174
-    port: 8080
-
-  - name: "HU-HTTP-26"
-    type: http
-    server: 15.229.149.81
-    port: 1080
-
-  - name: "SG-HTTP-27"
-    type: http
-    server: 128.199.113.85
-    port: 9090
-
-  - name: "SG-HTTP-28"
-    type: http
-    server: 128.199.116.219
-    port: 9090
-
-  - name: "RO-HTTP-29"
-    type: http
-    server: 56.228.13.15
-    port: 18146
 
   - name: "CN-HTTP-30"
     type: http
-    server: 27.185.218.213
-    port: 17981
+    server: 47.121.139.13
+    port: 3128
 
 proxy-groups:
   - name: "AUTO"
@@ -158,32 +157,32 @@ proxy-groups:
       - "US-HTTP-01"
       - "US-HTTP-02"
       - "US-HTTP-03"
-      - "US-HTTP-04"
-      - "MX-HTTP-05"
-      - "DE-HTTPS-06"
+      - "CA-HTTP-04"
+      - "US-HTTP-05"
+      - "DO-HTTP-06"
       - "MX-HTTP-07"
-      - "DO-HTTP-08"
-      - "CA-HTTP-09"
-      - "UA-HTTP-10"
-      - "UA-HTTP-11"
-      - "US-HTTP-12"
-      - "CO-HTTP-13"
-      - "BG-HTTP-14"
-      - "NL-HTTP-15"
-      - "US-HTTP-16"
-      - "SG-HTTP-17"
-      - "SG-HTTP-18"
-      - "EC-HTTP-19"
-      - "CA-HTTPS-20"
-      - "CM-HTTP-21"
-      - "CO-HTTP-22"
-      - "US-HTTP-23"
-      - "CM-HTTP-24"
-      - "CN-HTTP-25"
-      - "HU-HTTP-26"
-      - "SG-HTTP-27"
-      - "SG-HTTP-28"
-      - "RO-HTTP-29"
+      - "US-HTTP-08"
+      - "CO-HTTP-09"
+      - "CO-HTTP-10"
+      - "MX-HTTP-11"
+      - "UA-HTTP-12"
+      - "EC-HTTP-13"
+      - "CO-HTTP-14"
+      - "US-HTTP-15"
+      - "CN-HTTP-16"
+      - "ID-HTTP-17"
+      - "NL-HTTP-18"
+      - "CN-HTTP-19"
+      - "SG-HTTP-20"
+      - "CN-HTTP-21"
+      - "US-HTTP-22"
+      - "KH-HTTP-23"
+      - "CN-HTTP-24"
+      - "SG-HTTP-25"
+      - "US-HTTP-26"
+      - "AR-HTTP-27"
+      - "DE-HTTPS-28"
+      - "FR-HTTP-29"
       - "CN-HTTP-30"
     url: "https://www.gstatic.com/generate_204"
     interval: 300
@@ -195,32 +194,32 @@ proxy-groups:
       - "US-HTTP-01"
       - "US-HTTP-02"
       - "US-HTTP-03"
-      - "US-HTTP-04"
-      - "MX-HTTP-05"
-      - "DE-HTTPS-06"
+      - "CA-HTTP-04"
+      - "US-HTTP-05"
+      - "DO-HTTP-06"
       - "MX-HTTP-07"
-      - "DO-HTTP-08"
-      - "CA-HTTP-09"
-      - "UA-HTTP-10"
-      - "UA-HTTP-11"
-      - "US-HTTP-12"
-      - "CO-HTTP-13"
-      - "BG-HTTP-14"
-      - "NL-HTTP-15"
-      - "US-HTTP-16"
-      - "SG-HTTP-17"
-      - "SG-HTTP-18"
-      - "EC-HTTP-19"
-      - "CA-HTTPS-20"
-      - "CM-HTTP-21"
-      - "CO-HTTP-22"
-      - "US-HTTP-23"
-      - "CM-HTTP-24"
-      - "CN-HTTP-25"
-      - "HU-HTTP-26"
-      - "SG-HTTP-27"
-      - "SG-HTTP-28"
-      - "RO-HTTP-29"
+      - "US-HTTP-08"
+      - "CO-HTTP-09"
+      - "CO-HTTP-10"
+      - "MX-HTTP-11"
+      - "UA-HTTP-12"
+      - "EC-HTTP-13"
+      - "CO-HTTP-14"
+      - "US-HTTP-15"
+      - "CN-HTTP-16"
+      - "ID-HTTP-17"
+      - "NL-HTTP-18"
+      - "CN-HTTP-19"
+      - "SG-HTTP-20"
+      - "CN-HTTP-21"
+      - "US-HTTP-22"
+      - "KH-HTTP-23"
+      - "CN-HTTP-24"
+      - "SG-HTTP-25"
+      - "US-HTTP-26"
+      - "AR-HTTP-27"
+      - "DE-HTTPS-28"
+      - "FR-HTTP-29"
       - "CN-HTTP-30"
 
 rules:
