@@ -23,8 +23,8 @@
         "settings": {
           "servers": [
             {
-              "address": "136.226.10.203",
-              "port": 9480
+              "address": "130.127.204.197",
+              "port": 8080
             }
           ]
         }
@@ -40,207 +40,7 @@
     }
   },
   {
-    "remarks": "US-HTTP-02",
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "tag": "socks-in",
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "http",
-        "settings": {
-          "servers": [
-            {
-              "address": "136.226.10.220",
-              "port": 9480
-            }
-          ]
-        }
-      },
-      {
-        "tag": "direct",
-        "protocol": "freedom"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "US-HTTP-03",
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "tag": "socks-in",
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "http",
-        "settings": {
-          "servers": [
-            {
-              "address": "136.226.10.217",
-              "port": 9480
-            }
-          ]
-        }
-      },
-      {
-        "tag": "direct",
-        "protocol": "freedom"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "CA-HTTP-04",
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "tag": "socks-in",
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "http",
-        "settings": {
-          "servers": [
-            {
-              "address": "184.75.221.82",
-              "port": 3118
-            }
-          ]
-        }
-      },
-      {
-        "tag": "direct",
-        "protocol": "freedom"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "US-HTTP-05",
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "tag": "socks-in",
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "http",
-        "settings": {
-          "servers": [
-            {
-              "address": "136.226.10.202",
-              "port": 9480
-            }
-          ]
-        }
-      },
-      {
-        "tag": "direct",
-        "protocol": "freedom"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "DO-HTTP-06",
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "tag": "socks-in",
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "http",
-        "settings": {
-          "servers": [
-            {
-              "address": "217.76.245.80",
-              "port": 999
-            }
-          ]
-        }
-      },
-      {
-        "tag": "direct",
-        "protocol": "freedom"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "MX-HTTP-07",
+    "remarks": "MX-HTTP-02",
     "log": {
       "loglevel": "warning"
     },
@@ -280,7 +80,7 @@
     }
   },
   {
-    "remarks": "US-HTTP-08",
+    "remarks": "DO-HTTP-03",
     "log": {
       "loglevel": "warning"
     },
@@ -303,8 +103,8 @@
         "settings": {
           "servers": [
             {
-              "address": "130.127.204.197",
-              "port": 8080
+              "address": "217.76.245.80",
+              "port": 999
             }
           ]
         }
@@ -320,87 +120,7 @@
     }
   },
   {
-    "remarks": "CO-HTTP-09",
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "tag": "socks-in",
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "http",
-        "settings": {
-          "servers": [
-            {
-              "address": "190.0.246.213",
-              "port": 4040
-            }
-          ]
-        }
-      },
-      {
-        "tag": "direct",
-        "protocol": "freedom"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "CO-HTTP-10",
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "tag": "socks-in",
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "http",
-        "settings": {
-          "servers": [
-            {
-              "address": "190.0.246.210",
-              "port": 4040
-            }
-          ]
-        }
-      },
-      {
-        "tag": "direct",
-        "protocol": "freedom"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "MX-HTTP-11",
+    "remarks": "MX-HTTP-04",
     "log": {
       "loglevel": "warning"
     },
@@ -440,7 +160,7 @@
     }
   },
   {
-    "remarks": "UA-HTTP-12",
+    "remarks": "CO-HTTP-05",
     "log": {
       "loglevel": "warning"
     },
@@ -463,8 +183,8 @@
         "settings": {
           "servers": [
             {
-              "address": "176.111.37.5",
-              "port": 39811
+              "address": "190.0.246.213",
+              "port": 4040
             }
           ]
         }
@@ -480,7 +200,7 @@
     }
   },
   {
-    "remarks": "EC-HTTP-13",
+    "remarks": "CO-HTTP-06",
     "log": {
       "loglevel": "warning"
     },
@@ -503,8 +223,8 @@
         "settings": {
           "servers": [
             {
-              "address": "186.5.94.206",
-              "port": 999
+              "address": "190.0.246.210",
+              "port": 4040
             }
           ]
         }
@@ -520,7 +240,7 @@
     }
   },
   {
-    "remarks": "CO-HTTP-14",
+    "remarks": "CO-HTTP-07",
     "log": {
       "loglevel": "warning"
     },
@@ -560,7 +280,7 @@
     }
   },
   {
-    "remarks": "US-HTTP-15",
+    "remarks": "UA-HTTP-08",
     "log": {
       "loglevel": "warning"
     },
@@ -583,8 +303,8 @@
         "settings": {
           "servers": [
             {
-              "address": "104.129.203.85",
-              "port": 9480
+              "address": "176.111.37.216",
+              "port": 39811
             }
           ]
         }
@@ -600,7 +320,7 @@
     }
   },
   {
-    "remarks": "CN-HTTP-16",
+    "remarks": "UA-HTTP-09",
     "log": {
       "loglevel": "warning"
     },
@@ -623,8 +343,8 @@
         "settings": {
           "servers": [
             {
-              "address": "101.251.204.174",
-              "port": 8080
+              "address": "176.111.37.5",
+              "port": 39811
             }
           ]
         }
@@ -640,7 +360,7 @@
     }
   },
   {
-    "remarks": "ID-HTTP-17",
+    "remarks": "BG-HTTP-10",
     "log": {
       "loglevel": "warning"
     },
@@ -663,8 +383,8 @@
         "settings": {
           "servers": [
             {
-              "address": "202.150.89.244",
-              "port": 3128
+              "address": "89.167.124.218",
+              "port": 8888
             }
           ]
         }
@@ -680,7 +400,7 @@
     }
   },
   {
-    "remarks": "NL-HTTP-18",
+    "remarks": "EC-HTTP-11",
     "log": {
       "loglevel": "warning"
     },
@@ -703,8 +423,8 @@
         "settings": {
           "servers": [
             {
-              "address": "51.15.20.32",
-              "port": 3129
+              "address": "186.5.94.206",
+              "port": 999
             }
           ]
         }
@@ -720,7 +440,47 @@
     }
   },
   {
-    "remarks": "CN-HTTP-19",
+    "remarks": "SG-HTTP-12",
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "128.199.121.61",
+              "port": 9090
+            }
+          ]
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "CN-HTTP-13",
     "log": {
       "loglevel": "warning"
     },
@@ -760,7 +520,167 @@
     }
   },
   {
-    "remarks": "SG-HTTP-20",
+    "remarks": "SG-HTTP-14",
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "167.99.74.174",
+              "port": 9090
+            }
+          ]
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "SG-HTTP-15",
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "128.199.113.85",
+              "port": 9090
+            }
+          ]
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "AR-HTTP-16",
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "187.102.219.42",
+              "port": 999
+            }
+          ]
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "CN-HTTP-17",
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "101.251.204.174",
+              "port": 8080
+            }
+          ]
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "SG-HTTP-18",
     "log": {
       "loglevel": "warning"
     },
@@ -785,6 +705,86 @@
             {
               "address": "4.144.146.21",
               "port": 80
+            }
+          ]
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "IN-HTTP-19",
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "172.237.41.254",
+              "port": 9999
+            }
+          ]
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "MZ-HTTP-20",
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "197.218.16.16",
+              "port": 3128
             }
           ]
         }
@@ -840,7 +840,7 @@
     }
   },
   {
-    "remarks": "US-HTTP-22",
+    "remarks": "BR-HTTP-22",
     "log": {
       "loglevel": "warning"
     },
@@ -863,8 +863,8 @@
         "settings": {
           "servers": [
             {
-              "address": "165.154.162.73",
-              "port": 8888
+              "address": "191.252.205.45",
+              "port": 8889
             }
           ]
         }
@@ -880,7 +880,7 @@
     }
   },
   {
-    "remarks": "KH-HTTP-23",
+    "remarks": "HK-HTTP-23",
     "log": {
       "loglevel": "warning"
     },
@@ -903,8 +903,8 @@
         "settings": {
           "servers": [
             {
-              "address": "49.156.44.117",
-              "port": 8080
+              "address": "43.155.62.157",
+              "port": 443
             }
           ]
         }
@@ -960,7 +960,47 @@
     }
   },
   {
-    "remarks": "SG-HTTP-25",
+    "remarks": "CM-HTTP-25",
+    "log": {
+      "loglevel": "warning"
+    },
+    "inbounds": [
+      {
+        "tag": "socks-in",
+        "port": 10808,
+        "listen": "127.0.0.1",
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        }
+      }
+    ],
+    "outbounds": [
+      {
+        "tag": "proxy",
+        "protocol": "http",
+        "settings": {
+          "servers": [
+            {
+              "address": "102.244.78.61",
+              "port": 8084
+            }
+          ]
+        }
+      },
+      {
+        "tag": "direct",
+        "protocol": "freedom"
+      }
+    ],
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": []
+    }
+  },
+  {
+    "remarks": "SG-HTTP-26",
     "log": {
       "loglevel": "warning"
     },
@@ -1000,7 +1040,7 @@
     }
   },
   {
-    "remarks": "US-HTTP-26",
+    "remarks": "VE-HTTP-27",
     "log": {
       "loglevel": "warning"
     },
@@ -1023,47 +1063,7 @@
         "settings": {
           "servers": [
             {
-              "address": "38.18.230.153",
-              "port": 8888
-            }
-          ]
-        }
-      },
-      {
-        "tag": "direct",
-        "protocol": "freedom"
-      }
-    ],
-    "routing": {
-      "domainStrategy": "AsIs",
-      "rules": []
-    }
-  },
-  {
-    "remarks": "AR-HTTP-27",
-    "log": {
-      "loglevel": "warning"
-    },
-    "inbounds": [
-      {
-        "tag": "socks-in",
-        "port": 10808,
-        "listen": "127.0.0.1",
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true
-        }
-      }
-    ],
-    "outbounds": [
-      {
-        "tag": "proxy",
-        "protocol": "http",
-        "settings": {
-          "servers": [
-            {
-              "address": "187.102.219.42",
+              "address": "154.59.56.78",
               "port": 999
             }
           ]
@@ -1080,7 +1080,7 @@
     }
   },
   {
-    "remarks": "DE-HTTP-28",
+    "remarks": "KH-HTTP-28",
     "log": {
       "loglevel": "warning"
     },
@@ -1103,8 +1103,8 @@
         "settings": {
           "servers": [
             {
-              "address": "103.237.102.191",
-              "port": 11111
+              "address": "49.156.44.117",
+              "port": 8080
             }
           ]
         }
@@ -1120,7 +1120,7 @@
     }
   },
   {
-    "remarks": "FR-HTTP-29",
+    "remarks": "UZ-HTTP-29",
     "log": {
       "loglevel": "warning"
     },
@@ -1143,8 +1143,8 @@
         "settings": {
           "servers": [
             {
-              "address": "205.237.105.49",
-              "port": 3129
+              "address": "195.158.8.123",
+              "port": 3128
             }
           ]
         }
@@ -1160,7 +1160,7 @@
     }
   },
   {
-    "remarks": "CN-HTTP-30",
+    "remarks": "TN-HTTP-30",
     "log": {
       "loglevel": "warning"
     },
@@ -1183,7 +1183,7 @@
         "settings": {
           "servers": [
             {
-              "address": "47.121.139.13",
+              "address": "41.226.37.234",
               "port": 3128
             }
           ]
