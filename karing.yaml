@@ -1,253 +1,255 @@
 proxies:
-  - name: "MX-HTTPS-01"
+  - name: "DE-HTTPS-01"
     type: http
-    server: 78.14.19.3
-    port: 57695
+    server: 103.237.102.191
+    port: 11111
     tls: true
 
-  - name: "IL-HTTPS-02"
+  - name: "US-HTTPS-02"
     type: http
-    server: 51.85.44.162
-    port: 8037
+    server: 18.222.231.188
+    port: 12769
     tls: true
 
-  - name: "MX-HTTPS-03"
-    type: http
-    server: 78.12.246.160
-    port: 987
-    tls: true
-
-  - name: "ES-HTTPS-04"
-    type: http
-    server: 51.94.221.175
-    port: 19782
-    tls: true
-
-  - name: "US-HTTPS-05"
-    type: http
-    server: 98.94.14.234
-    port: 21347
-    tls: true
-
-  - name: "IL-HTTPS-06"
-    type: http
-    server: 51.17.99.116
-    port: 27179
-    tls: true
-
-  - name: "CA-HTTPS-07"
-    type: http
-    server: 16.174.124.173
-    port: 20068
-    tls: true
-
-  - name: "BR-HTTPS-08"
-    type: http
-    server: 18.231.126.121
-    port: 8303
-    tls: true
-
-  - name: "IE-HTTPS-09"
-    type: http
-    server: 52.214.92.206
-    port: 18068
-    tls: true
-
-  - name: "ZA-HTTPS-10"
-    type: http
-    server: 13.245.183.150
-    port: 42202
-    tls: true
-
-  - name: "US-HTTPS-11"
-    type: http
-    server: 3.21.247.154
-    port: 36194
-    tls: true
-
-  - name: "ZA-HTTPS-12"
-    type: http
-    server: 16.28.32.67
-    port: 24344
-    tls: true
-
-  - name: "JP-HTTPS-13"
-    type: http
-    server: 35.78.212.217
-    port: 20605
-    tls: true
-
-  - name: "IL-HTTPS-14"
-    type: http
-    server: 51.16.4.39
-    port: 4954
-    tls: true
-
-  - name: "AU-HTTPS-15"
-    type: http
-    server: 16.26.208.68
-    port: 36
-    tls: true
-
-  - name: "ZA-HTTPS-16"
-    type: http
-    server: 16.28.29.244
-    port: 12426
-    tls: true
-
-  - name: "US-HTTPS-17"
-    type: http
-    server: 3.21.129.156
-    port: 15035
-    tls: true
-
-  - name: "JP-HTTPS-18"
+  - name: "JP-HTTPS-03"
     type: http
     server: 52.195.147.51
     port: 40302
     tls: true
 
-  - name: "HK-HTTPS-19"
+  - name: "CA-HTTPS-04"
     type: http
-    server: 18.163.182.106
-    port: 6944
+    server: 16.174.124.173
+    port: 20068
     tls: true
 
-  - name: "CA-HTTPS-20"
+  - name: "IL-HTTPS-05"
+    type: http
+    server: 51.17.99.116
+    port: 27179
+    tls: true
+
+  - name: "US-HTTPS-06"
+    type: http
+    server: 98.94.14.234
+    port: 21347
+    tls: true
+
+  - name: "CA-HTTPS-07"
     type: http
     server: 35.183.29.62
     port: 8899
     tls: true
 
-  - name: "MX-HTTPS-21"
+  - name: "ZA-HTTPS-08"
     type: http
-    server: 78.12.136.220
-    port: 7576
+    server: 13.245.183.150
+    port: 42202
     tls: true
 
-  - name: "US-HTTPS-22"
+  - name: "US-HTTPS-09"
+    type: http
+    server: 34.220.80.147
+    port: 24146
+    tls: true
+
+  - name: "US-HTTPS-10"
     type: http
     server: 18.144.86.139
     port: 42089
     tls: true
 
-  - name: "US-HTTPS-23"
+  - name: "IL-HTTPS-11"
     type: http
-    server: 98.94.14.234
-    port: 18080
+    server: 51.85.44.162
+    port: 8037
     tls: true
 
-  - name: "SG-HTTPS-24"
+  - name: "JP-HTTPS-12"
     type: http
-    server: 13.215.184.250
-    port: 59881
+    server: 35.78.212.217
+    port: 20605
     tls: true
 
-  - name: "HK-HTTPS-25"
-    type: http
-    server: 18.166.56.240
-    port: 6035
-    tls: true
-
-  - name: "CA-HTTPS-26"
-    type: http
-    server: 35.183.78.223
-    port: 57968
-    tls: true
-
-  - name: "AU-HTTPS-27"
-    type: http
-    server: 16.51.5.77
-    port: 28291
-    tls: true
-
-  - name: "CH-HTTPS-28"
-    type: http
-    server: 16.18.22.211
-    port: 6155
-    tls: true
-
-  - name: "ES-HTTPS-29"
+  - name: "ES-HTTPS-13"
     type: http
     server: 15.217.214.40
     port: 39388
     tls: true
 
-  - name: "ZA-HTTPS-30"
+  - name: "BR-HTTPS-14"
     type: http
-    server: 16.28.101.55
-    port: 36672
+    server: 18.231.126.121
+    port: 8303
+    tls: true
+
+  - name: "US-HTTPS-15"
+    type: http
+    server: 3.21.247.154
+    port: 36194
+    tls: true
+
+  - name: "US-HTTPS-16"
+    type: http
+    server: 54.198.140.56
+    port: 40167
+    tls: true
+
+  - name: "MX-HTTPS-17"
+    type: http
+    server: 78.14.19.3
+    port: 57695
+    tls: true
+
+  - name: "AU-HTTPS-18"
+    type: http
+    server: 16.26.208.68
+    port: 36
+    tls: true
+
+  - name: "ZA-HTTPS-19"
+    type: http
+    server: 13.245.161.189
+    port: 31025
+    tls: true
+
+  - name: "JP-HTTPS-20"
+    type: http
+    server: 43.207.113.167
+    port: 49178
+    tls: true
+
+  - name: "HK-HTTPS-21"
+    type: http
+    server: 18.166.56.240
+    port: 57137
+    tls: true
+
+  - name: "US-HTTPS-22"
+    type: http
+    server: 98.81.204.137
+    port: 56258
+    tls: true
+
+  - name: "IE-HTTPS-23"
+    type: http
+    server: 52.214.92.206
+    port: 18068
+    tls: true
+
+  - name: "MX-HTTPS-24"
+    type: http
+    server: 78.12.136.220
+    port: 7576
+    tls: true
+
+  - name: "US-HTTPS-25"
+    type: http
+    server: 34.229.190.39
+    port: 28009
+    tls: true
+
+  - name: "AU-HTTPS-26"
+    type: http
+    server: 16.51.5.77
+    port: 28291
+    tls: true
+
+  - name: "US-HTTPS-27"
+    type: http
+    server: 3.231.160.150
+    port: 5016
+    tls: true
+
+  - name: "ES-HTTPS-28"
+    type: http
+    server: 51.94.221.175
+    port: 39363
+    tls: true
+
+  - name: "JP-HTTPS-29"
+    type: http
+    server: 13.208.246.143
+    port: 56169
+    tls: true
+
+  - name: "SG-HTTPS-30"
+    type: http
+    server: 13.215.184.250
+    port: 59881
     tls: true
 
 proxy-groups:
   - name: AUTO
     type: url-test
     proxies:
-      - "MX-HTTPS-01"
-      - "IL-HTTPS-02"
-      - "MX-HTTPS-03"
-      - "ES-HTTPS-04"
-      - "US-HTTPS-05"
-      - "IL-HTTPS-06"
+      - "DE-HTTPS-01"
+      - "US-HTTPS-02"
+      - "JP-HTTPS-03"
+      - "CA-HTTPS-04"
+      - "IL-HTTPS-05"
+      - "US-HTTPS-06"
       - "CA-HTTPS-07"
-      - "BR-HTTPS-08"
-      - "IE-HTTPS-09"
-      - "ZA-HTTPS-10"
-      - "US-HTTPS-11"
-      - "ZA-HTTPS-12"
-      - "JP-HTTPS-13"
-      - "IL-HTTPS-14"
-      - "AU-HTTPS-15"
-      - "ZA-HTTPS-16"
-      - "US-HTTPS-17"
-      - "JP-HTTPS-18"
-      - "HK-HTTPS-19"
-      - "CA-HTTPS-20"
-      - "MX-HTTPS-21"
+      - "ZA-HTTPS-08"
+      - "US-HTTPS-09"
+      - "US-HTTPS-10"
+      - "IL-HTTPS-11"
+      - "JP-HTTPS-12"
+      - "ES-HTTPS-13"
+      - "BR-HTTPS-14"
+      - "US-HTTPS-15"
+      - "US-HTTPS-16"
+      - "MX-HTTPS-17"
+      - "AU-HTTPS-18"
+      - "ZA-HTTPS-19"
+      - "JP-HTTPS-20"
+      - "HK-HTTPS-21"
       - "US-HTTPS-22"
-      - "US-HTTPS-23"
-      - "SG-HTTPS-24"
-      - "HK-HTTPS-25"
-      - "CA-HTTPS-26"
-      - "AU-HTTPS-27"
-      - "CH-HTTPS-28"
-      - "ES-HTTPS-29"
-      - "ZA-HTTPS-30"
+      - "IE-HTTPS-23"
+      - "MX-HTTPS-24"
+      - "US-HTTPS-25"
+      - "AU-HTTPS-26"
+      - "US-HTTPS-27"
+      - "ES-HTTPS-28"
+      - "JP-HTTPS-29"
+      - "SG-HTTPS-30"
     url: https://www.gstatic.com/generate_204
     interval: 300
+
   - name: PROXY
     type: select
     proxies:
       - AUTO
-      - "MX-HTTPS-01"
-      - "IL-HTTPS-02"
-      - "MX-HTTPS-03"
-      - "ES-HTTPS-04"
-      - "US-HTTPS-05"
-      - "IL-HTTPS-06"
+      - "DE-HTTPS-01"
+      - "US-HTTPS-02"
+      - "JP-HTTPS-03"
+      - "CA-HTTPS-04"
+      - "IL-HTTPS-05"
+      - "US-HTTPS-06"
       - "CA-HTTPS-07"
-      - "BR-HTTPS-08"
-      - "IE-HTTPS-09"
-      - "ZA-HTTPS-10"
-      - "US-HTTPS-11"
-      - "ZA-HTTPS-12"
-      - "JP-HTTPS-13"
-      - "IL-HTTPS-14"
-      - "AU-HTTPS-15"
-      - "ZA-HTTPS-16"
-      - "US-HTTPS-17"
-      - "JP-HTTPS-18"
-      - "HK-HTTPS-19"
-      - "CA-HTTPS-20"
-      - "MX-HTTPS-21"
+      - "ZA-HTTPS-08"
+      - "US-HTTPS-09"
+      - "US-HTTPS-10"
+      - "IL-HTTPS-11"
+      - "JP-HTTPS-12"
+      - "ES-HTTPS-13"
+      - "BR-HTTPS-14"
+      - "US-HTTPS-15"
+      - "US-HTTPS-16"
+      - "MX-HTTPS-17"
+      - "AU-HTTPS-18"
+      - "ZA-HTTPS-19"
+      - "JP-HTTPS-20"
+      - "HK-HTTPS-21"
       - "US-HTTPS-22"
-      - "US-HTTPS-23"
-      - "SG-HTTPS-24"
-      - "HK-HTTPS-25"
-      - "CA-HTTPS-26"
-      - "AU-HTTPS-27"
-      - "CH-HTTPS-28"
-      - "ES-HTTPS-29"
-      - "ZA-HTTPS-30"
+      - "IE-HTTPS-23"
+      - "MX-HTTPS-24"
+      - "US-HTTPS-25"
+      - "AU-HTTPS-26"
+      - "US-HTTPS-27"
+      - "ES-HTTPS-28"
+      - "JP-HTTPS-29"
+      - "SG-HTTPS-30"
+
 rules:
   - MATCH,PROXY
